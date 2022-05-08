@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario y tablas</title>
+
+</head>
+
+<body>
+    <h1>EJERCICIO DE FORMULARIO Y TABLA</h1>
+    <form>
+        <fieldset>
+            <h2>formulario</h2>
+            <label for="nombre"> <b>Nombre</b> </label>
+            <input type="text" name="nombre" id="nombre" placeholder="escriba su nombre">
+            <p></p>
+            <label for="Apellido"><b>Apellido</b></label>
+            <input type="text" name="Apellido" id="Apellido" placeholder="Escriba su apellido">
+            <p></p>
+            <label for="email"><b>Email</b></label>
+            <input type="email" name="email" id="email" placeholder="escribe tu email">
+            <p></p>
+            <label for="tel"><b>Telefono</b></label>
+            <input type="tel" name="tel" id="tel" placeholder="numero de telefono">
+            <p></p>
+            <label for="direccion"><b>Direccion</b></label>
+            <input type="address" name="direccion" id="direccion" placeholder="escribe tu direccion">
+            <p></p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="reset">
+        </fieldset>
+    </form>
+
+    <table class="table" border="1">
+        <caption>consumo de comida gatos</caption>
+
+        <tr>
+            <th>Lunes</th>
+            <th>martes</th>
+            <th>miercoles</th>
+            <th>total</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2">80</td>
+            <td>100</td>
+            <td>90</td>
+            <td>270</td>
+        </tr>
+
+        <tr>
+
+            <td>90</td>
+            <td>100</td>
+            <td>270</td>
+        </tr>
+
+        <tr>
+            <th colspan="3">total</th>
+            <td>540</td>
+        </tr>
+
+    </table>
+
+</body>
+
+
+</html>
